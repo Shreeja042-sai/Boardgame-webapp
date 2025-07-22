@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: Devsecops-project
-          image: Shreeja042/Devsecops:latest # Image that will be used to containers in the cluster
+          image: shreeja042/devsecops:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
